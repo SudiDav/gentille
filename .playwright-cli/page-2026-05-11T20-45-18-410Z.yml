@@ -1,0 +1,82 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "Gentille UMUHOZAWASE" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - text: Home
+        - link "My Bio" [ref=e13] [cursor=pointer]:
+          - /url: /bio
+          - img [ref=e14]
+          - text: My Bio
+        - link "Portfolio" [ref=e17] [cursor=pointer]:
+          - /url: /portfolio
+          - img [ref=e18]
+          - text: Portfolio
+        - link "Elevator Pitch" [ref=e21] [cursor=pointer]:
+          - /url: /elevator-pitch
+          - img [ref=e22]
+          - text: Elevator Pitch
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e29]
+          - text: ALX Professional Foundations - Week 11
+        - heading "Gentille UMUHOZAWASE" [level=1] [ref=e32]
+        - paragraph [ref=e33]: A creative and motivated individual building a personal brand focused on fashion design, creativity, and professional growth.
+      - generic [ref=e35]:
+        - link "My Bio Learn about my journey, background, skills, and what drives my passion for creativity and professional growth. Read my story" [ref=e36] [cursor=pointer]:
+          - /url: /bio
+          - img [ref=e38]
+          - heading "My Bio" [level=3] [ref=e41]
+          - paragraph [ref=e42]: Learn about my journey, background, skills, and what drives my passion for creativity and professional growth.
+          - generic [ref=e43]:
+            - text: Read my story
+            - img [ref=e44]
+        - link "Portfolio Explore my projects, team collaborations, and the work I've done during my ALX journey and beyond. View my work" [ref=e46] [cursor=pointer]:
+          - /url: /portfolio
+          - img [ref=e48]
+          - heading "Portfolio" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Explore my projects, team collaborations, and the work I've done during my ALX journey and beyond.
+          - generic [ref=e53]:
+            - text: View my work
+            - img [ref=e54]
+        - link "Elevator Pitch My prepared elevator pitch — a concise introduction highlighting my skills, goals, and unique value proposition. Watch my pitch" [ref=e56] [cursor=pointer]:
+          - /url: /elevator-pitch
+          - img [ref=e58]
+          - heading "Elevator Pitch" [level=3] [ref=e61]
+          - paragraph [ref=e62]: My prepared elevator pitch — a concise introduction highlighting my skills, goals, and unique value proposition.
+          - generic [ref=e63]:
+            - text: Watch my pitch
+            - img [ref=e64]
+      - generic [ref=e66]:
+        - blockquote [ref=e67]: "\"The best way to predict the future is to create it. I'm committed to building technology that makes a difference.\""
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Gentille UMUHOZAWASE
+            - paragraph [ref=e75]: ALX Africa Cohort
+  - contentinfo [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Gentille UMUHOZAWASE
+          - paragraph [ref=e81]: ALX Africa Student
+        - generic [ref=e82]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e84]
+          - link [ref=e87] [cursor=pointer]:
+            - /url: https://linkedin.com
+            - img [ref=e88]
+          - link [ref=e92] [cursor=pointer]:
+            - /url: mailto:jane.doe@email.com
+            - img [ref=e93]
+      - paragraph [ref=e97]:
+        - text: Built with
+        - img [ref=e98]
+        - text: for ALX Professional Foundations Week 11
