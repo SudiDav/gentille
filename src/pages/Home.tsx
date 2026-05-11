@@ -84,7 +84,7 @@ export default function Home() {
           </div>
           <div className="text-left">
             <p className="font-medium text-[#2d2a26] text-sm">Gentille UMUHOZAWASE</p>
-            <p className="text-[#9a9389] text-xs">ALX Africa Cohort</p>
+            <p className="text-[#9a9389] text-xs">ALX Africa Cohort 2</p>
           </div>
         </div>
       </div>
