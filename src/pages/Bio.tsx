@@ -1,4 +1,4 @@
-import { MapPin, GraduationCap, Target, Heart, Scissors, Globe, Lightbulb, Palette } from 'lucide-react'
+import { MapPin, GraduationCap, Target, Heart, Scissors, Globe, Lightbulb, Palette, Mail, Phone } from 'lucide-react'
 
 export default function Bio() {
   return (
@@ -17,13 +17,17 @@ export default function Bio() {
         {/* Left Column - Profile */}
         <div className="lg:col-span-4">
           <div className="bg-white rounded-2xl p-8 border border-[#e8e2d9] sticky top-24">
-            {/* Avatar Placeholder */}
-            <div className="w-32 h-32 bg-[#f0ebe3] rounded-full mx-auto mb-6 flex items-center justify-center">
-              <span className="font-display text-3xl text-[#8b7d6b]">GU</span>
+            {/* Avatar */}
+            <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden border-2 border-[#e8e2d9]">
+              <img
+                src="/gentille.jpeg"
+                alt="Gentille Umuhozawase"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             <h2 className="font-display text-2xl font-semibold text-[#2d2a26] text-center mb-2">Gentille UMUHOZAWASE</h2>
-            <p className="text-[#7a746d] text-center text-sm mb-6">Creative Entrepreneur & ALX Student</p>
+            <p className="text-[#7a746d] text-center text-sm mb-6">Aspiring Fashion Designer & Data Analytics Professional</p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-[#5c564e]">
@@ -36,14 +40,26 @@ export default function Bio() {
               </div>
               <div className="flex items-center gap-3 text-sm text-[#5c564e]">
                 <Palette size={16} className="text-[#b89f7a]" />
-                <span>Fashion Design & Business</span>
+                <span>Fashion Design & Data Analytics</span>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-[#5c564e]">
+                <Mail size={16} className="text-[#b89f7a]" />
+                <a href="mailto:umuhozawasegentille@gmail.com" className="hover:text-[#b89f7a] transition-colors">
+                  umuhozawasegentille@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center gap-3 text-sm text-[#5c564e]">
+                <Phone size={16} className="text-[#b89f7a]" />
+                <a href="tel:+250788207729" className="hover:text-[#b89f7a] transition-colors">
+                  +250 788 207 729
+                </a>
               </div>
             </div>
 
             <div className="mt-6 pt-6 border-t border-[#e8e2d9]">
               <h4 className="font-semibold text-[#2d2a26] text-sm mb-3">Skills</h4>
               <div className="flex flex-wrap gap-2">
-                {['Creativity', 'Problem-Solving', 'Adaptability', 'Fashion Design', 'Sewing', 'Business Skills'].map((skill) => (
+                {['Creativity', 'Analytical Thinking', 'Adaptability', 'Fashion Design', 'SQL', 'Data Visualization', 'Excel'].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-[#f5efe6] text-[#5c564e] text-xs rounded-full font-medium"
@@ -68,13 +84,16 @@ export default function Bio() {
             </div>
             <div className="text-[#5c564e] leading-relaxed space-y-4">
               <p>
-                UMUHOZAWASE Gentille is a creative and motivated individual building a personal brand focused on fashion design and professional growth. She is passionate about creating unique clothing pieces while also developing her digital and business skills.
+                My name is Gentille Umuhozawase. I am an aspiring fashion designer and future data analytics professional passionate about combining creativity with technology. I believe data can play an important role in the fashion industry by helping designers understand customer preferences, predict trends, and make smarter business decisions for their brands.
               </p>
               <p>
-                She aims to grow into a successful entrepreneur and professional who combines creativity with innovation to make an impact. She has already demonstrated her skills through designing and sewing custom outfits and consistently improving her abilities through learning programs like ALX.
+                Currently, I am building skills in Data Analytics through professional foundation studies at ALX Rwanda while continuing to grow my passion for fashion and creative design. I am learning tools such as Excel, SQL, and data visualization to better understand patterns, trends, and consumer behavior.
               </p>
               <p>
-                Gentille is known for her creativity, determination, and willingness to learn, which continue to drive her toward achieving her long-term goals. She believes that combining creativity with discipline is the key to delivering unique, well-thought-out results while maintaining reliability and consistency.
+                What makes me unique is my ability to combine creativity, curiosity, and analytical thinking.
+              </p>
+              <p>
+                My goal is to use both fashion design and data analytics skills to create innovative designs, build stronger brands, and contribute to the future of the fashion industry.
               </p>
             </div>
           </div>
@@ -88,7 +107,7 @@ export default function Bio() {
               <h3 className="font-display text-xl font-semibold text-[#2d2a26]">My Mission</h3>
             </div>
             <p className="text-[#5c564e] leading-relaxed">
-              My mission is to grow into a successful entrepreneur and professional who combines creativity with innovation to make a meaningful impact. I am committed to building my personal brand in fashion design, continuously learning, and developing both my creative and professional skills to deliver unique, well-thought-out results for my clients and community.
+              My mission is to grow into a successful professional who combines fashion design with data analytics to make a meaningful impact. I am committed to building my personal brand, continuously learning, and developing both my creative and analytical skills to deliver innovative, well-thought-out results for my clients and community.
             </p>
           </div>
 
