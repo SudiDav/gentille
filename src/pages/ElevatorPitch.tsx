@@ -1,4 +1,4 @@
-import { Mic, Video, Clock, Calendar, Sparkles, AlertCircle } from 'lucide-react'
+import { Mic, Video, Clock, Calendar, Sparkles } from 'lucide-react'
 
 export default function ElevatorPitch() {
   return (
@@ -41,54 +41,21 @@ export default function ElevatorPitch() {
 
       </div>
 
-      {/* Pitch Preview */}
-      <div className="grid md:grid-cols-2 gap-6 mb-10">
-        {/* Written Pitch */}
-        <div className="bg-white rounded-2xl p-8 border border-[#e8e2d9]">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 bg-[#f5efe6] rounded-lg flex items-center justify-center">
-              <Mic size={20} className="text-[#8b7d6b]" />
-            </div>
-            <h3 className="font-display text-lg font-semibold text-[#2d2a26]">My Written Pitch</h3>
+      {/* Written Pitch */}
+      <div className="bg-white rounded-2xl p-8 md:p-10 border border-[#e8e2d9] mb-10">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 bg-[#f5efe6] rounded-lg flex items-center justify-center">
+            <Mic size={20} className="text-[#8b7d6b]" />
           </div>
-          <div className="bg-[#faf8f5] rounded-xl p-5 border border-[#e8e2d9]">
-            <p className="text-[#5c564e] leading-relaxed italic text-sm">
-              "My name is UMUHOZAWASE Gentille, and I am a motivated learner building skills in technology and personal development. I have experience in creative work, including fashion design and sewing, and I am currently developing my digital and professional skills through my studies. I am skilled in creativity, problem-solving, and adaptability, which allow me to approach challenges with innovative and practical solutions. What makes me stand out is my willingness to learn, grow, and consistently improve myself in everything I do. I bring value by combining creativity with discipline, helping clients or employers get unique, well-thought-out results while maintaining reliability and consistency. I am currently looking for opportunities to grow, collaborate, or gain experience, so I would appreciate being considered for any relevant opportunities or connections."
-            </p>
-            <p className="text-[#5c564e] leading-relaxed italic text-sm mt-3 font-medium">
-              Thank you for your time.
-            </p>
-          </div>
+          <h3 className="font-display text-xl font-semibold text-[#2d2a26]">My Written Pitch</h3>
         </div>
-
-        {/* Pitch Structure */}
-        <div className="bg-white rounded-2xl p-8 border border-[#e8e2d9]">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 bg-[#f5efe6] rounded-lg flex items-center justify-center">
-              <Sparkles size={20} className="text-[#8b7d6b]" />
-            </div>
-            <h3 className="font-display text-lg font-semibold text-[#2d2a26]">Pitch Structure</h3>
-          </div>
-          <div className="space-y-4">
-            {[
-              { icon: Clock, label: 'Introduction', desc: 'Name & current role' },
-              { icon: Sparkles, label: 'Value Proposition', desc: 'Skills & what makes me unique' },
-              { icon: Mic, label: 'Call to Action', desc: 'Seeking opportunities & connection' },
-            ].map((item, index) => {
-              const Icon = item.icon
-              return (
-                <div key={index} className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-[#f5efe6] rounded-lg flex items-center justify-center shrink-0">
-                    <Icon size={14} className="text-[#8b7d6b]" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-[#2d2a26] text-sm">{item.label}</p>
-                    <p className="text-[#7a746d] text-xs">{item.desc}</p>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+        <div className="bg-[#faf8f5] rounded-xl p-6 md:p-8 border border-[#e8e2d9]">
+          <p className="text-[#5c564e] leading-relaxed italic">
+            "My name is UMUHOZAWASE Gentille, and I am a motivated learner building skills in technology and personal development. I have experience in creative work, including fashion design and sewing, and I am currently developing my digital and professional skills through my studies. I am skilled in creativity, problem-solving, and adaptability, which allow me to approach challenges with innovative and practical solutions. What makes me stand out is my willingness to learn, grow, and consistently improve myself in everything I do. I bring value by combining creativity with discipline, helping clients or employers get unique, well-thought-out results while maintaining reliability and consistency. I am currently looking for opportunities to grow, collaborate, or gain experience, so I would appreciate being considered for any relevant opportunities or connections."
+          </p>
+          <p className="text-[#5c564e] leading-relaxed italic mt-4 font-medium">
+            Thank you for your time.
+          </p>
         </div>
       </div>
 
