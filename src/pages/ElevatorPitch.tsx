@@ -1,4 +1,4 @@
-import { Mic, Video, Clock, Calendar, Sparkles } from 'lucide-react'
+import { Mic, Video, Clock, Calendar } from 'lucide-react'
 
 export default function ElevatorPitch() {
   return (
