@@ -66,7 +66,7 @@ export default function Portfolio() {
             <p className="text-[#c4bdb3] max-w-2xl mb-6 leading-relaxed">
               As part of our Professional Foundations curriculum, my team and I developed a compelling pitch, created a presentation deck, and delivered our idea to peers. This was a valuable experience in collaboration, communication, and creative problem-solving.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 mb-8">
               <a
                 href="#"
                 className="inline-flex items-center gap-2 bg-[#b89f7a] text-[#2d2a26] px-6 py-3 rounded-xl font-medium hover:bg-[#c4a97a] transition-colors"
@@ -75,12 +75,28 @@ export default function Portfolio() {
                 View Pitch Slides
               </a>
               <a
-                href="#"
+                href="https://youtu.be/B8xh_U2T9qg"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#3d3935] text-[#faf8f5] px-6 py-3 rounded-xl font-medium hover:bg-[#4d4945] transition-colors"
               >
                 <Video size={18} />
-                Watch Pitch Video
+                Watch on YouTube
               </a>
+            </div>
+
+            {/* Video Embed */}
+            <div className="w-full max-w-3xl rounded-xl overflow-hidden border border-[#3d3935] shadow-2xl shadow-black/30">
+              <div className="relative pt-[56.25%]">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/B8xh_U2T9qg"
+                  title="ALX Team Pitch Presentation"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </div>
         </div>
