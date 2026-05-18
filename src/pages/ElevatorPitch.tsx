@@ -51,10 +51,10 @@ export default function ElevatorPitch() {
         </div>
         <div className="bg-[#faf8f5] rounded-xl p-6 md:p-8 border border-[#e8e2d9]">
           <p className="text-[#5c564e] leading-relaxed italic">
-            "My name is UMUHOZAWASE Gentille, and I am a motivated learner building skills in technology and personal development. I have experience in creative work, including fashion design and sewing, and I am currently developing my digital and professional skills through my studies. I am skilled in creativity, problem-solving, and adaptability, which allow me to approach challenges with innovative and practical solutions. What makes me stand out is my willingness to learn, grow, and consistently improve myself in everything I do. I bring value by combining creativity with discipline, helping clients or employers get unique, well-thought-out results while maintaining reliability and consistency. I am currently looking for opportunities to grow, collaborate, or gain experience, so I would appreciate being considered for any relevant opportunities or connections."
+            "Hello, my name is UMUHOZAWASE Gentille. I'm a fashion designer and future data analyst. I am currently building skills in data analytics to better understand customer behavior, trends, and fashion forecasting. My strengths include creativity, analytical thinking, and problem-solving. What makes me unique is my ability to combine fashion and technology to create smarter and more innovative business decisions. I believe data can help fashion brands predict trends, understand consumers, and grow more successfully. I would be excited to use my skills to help businesses make impactful decisions."
           </p>
           <p className="text-[#5c564e] leading-relaxed italic mt-4 font-medium">
-            Thank you for your time.
+            Thank you.
           </p>
         </div>
       </div>
