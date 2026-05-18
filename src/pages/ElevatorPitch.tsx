@@ -7,29 +7,38 @@ export default function ElevatorPitch() {
       <div className="text-center mb-16">
         <div className="inline-flex items-center gap-2 bg-[#f0ebe3] text-[#5c564e] px-4 py-2 rounded-full text-sm font-medium mb-4">
           <Mic size={16} />
-          Coming Soon
+          Video Pitch
         </div>
         <h1 className="font-display text-4xl md:text-5xl font-bold text-[#2d2a26] mb-4">Elevator Pitch</h1>
         <div className="w-16 h-1 bg-[#b89f7a] mx-auto rounded-full" />
       </div>
 
-      {/* Coming Soon Card */}
-      <div className="bg-white rounded-2xl p-10 md:p-14 border border-[#e8e2d9] text-center mb-10">
-        <div className="w-20 h-20 bg-[#f5efe6] rounded-full flex items-center justify-center mx-auto mb-6">
-          <Video size={32} className="text-[#8b7d6b]" />
+      {/* Video Pitch */}
+      <div className="bg-white rounded-2xl p-8 md:p-10 border border-[#e8e2d9] mb-10">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 bg-[#f5efe6] rounded-lg flex items-center justify-center">
+            <Video size={20} className="text-[#8b7d6b]" />
+          </div>
+          <h2 className="font-display text-xl font-semibold text-[#2d2a26]">My Elevator Pitch Video</h2>
         </div>
 
-        <h2 className="font-display text-2xl md:text-3xl font-semibold text-[#2d2a26] mb-4">
-          Video Pitch Coming in Week 12
-        </h2>
-        <p className="text-[#7a746d] max-w-lg mx-auto leading-relaxed mb-8">
-          I'm currently preparing and refining my elevator pitch. The video will be recorded and uploaded here during Week 12 of the Professional Foundations program. Stay tuned!
-        </p>
-
-        <div className="inline-flex items-center gap-2 bg-[#fff8e6] text-[#8b6914] px-5 py-3 rounded-xl text-sm font-medium">
-          <AlertCircle size={18} />
-          Check back soon for the updated content
+        {/* Local Video Player */}
+        <div className="w-full rounded-xl overflow-hidden border border-[#e8e2d9] shadow-lg mb-6 bg-[#2d2a26]">
+          <video
+            className="w-full aspect-video"
+            controls
+            poster="/gentille.jpeg"
+            preload="metadata"
+          >
+            <source src="/videos/elevator-pitch.mp4" type="video/mp4" />
+            <source src="/videos/elevator-pitch.webm" type="video/webm" />
+            <p className="text-[#c4bdb3] text-center py-8">
+              Your browser does not support the video tag.
+            </p>
+          </video>
         </div>
+
+
       </div>
 
       {/* Pitch Preview */}
